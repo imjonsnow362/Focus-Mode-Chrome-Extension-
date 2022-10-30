@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nlny - Redirecting..</title>
+    <style>
+        body, html {
+            height: 100%;
+            display: grid;
+        }
+
+        .center-me {
+            margin: auto;
+        }
+
+        .title {
+            margin: 15px 0;
+            font-size: large;
+            font-style: italic;
+        }
+
+        .sub-title {
+            margin: 15px 0;
+            font-size: medium;
+            font-style: italic;
+            color: #808080;
+        }
+    </style>
+</head>
+<body>
+    <div class="center-me">
+        <div style="text-align: center;">
+            <img src="assets/icons/white_128.png" alt="logo">
+            <div class="title">
+                It's Leetcode time....
+            </div>
+            <div class="title" id="banner">
+            </div>
+            <div class="title">
+                Redirect to Leetcode in <span id="time-left"></span> seconds....
+            </div>
+            <div class="sub-title">
+                You can disable redirection <a href="#" id="open-option-page">here</a>
+            </div>
+        </div>
+    </div>
+    <script src="js/lib/utils.js"></script>
+    <script src="js/redirect.js"></script>
+</body>
+</html>

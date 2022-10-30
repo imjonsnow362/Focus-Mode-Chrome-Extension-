@@ -1,2 +1,11 @@
-# Focus-Mode-Chrome-Extension-
-Building a chrome extension for aspring coders. It will block all entertainment website till one question on leetcode or GFG is not solved.
+# nlny - No Leetcode, No Youtube
+
+> Chrome Extension
+
+![nlny](assets/icons/white_128.png)
+
+Wanna watch Youtube? Solve Leetcode first
+
+---
+
+![capture](assets/capture.jpg)

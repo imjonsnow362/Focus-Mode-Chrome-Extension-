@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Test Extension Options</title>
+        <link rel="stylesheet" type="text/css" href="css/popup.css">
+    </head>
+    <body>
+        <div class="box">
+            <div>
+                <label for="auto-redirection">
+                    <input id="auto-redirection" type="checkbox" value="test" />
+                    <b>Youtube Auto Redirection</b>
+                </label>
+            </div>
+            <div>
+                You can watch Youtube for 
+                <select id="ar-hour-unit">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="18">18</option>
+                    <option value="24">24</option>
+                </select>
+                hours when you solve one Leetcode problem.
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div>
+            Move to random leetcode problem page <a href="https://leetcode.com/problems/random-one-question/algorithms" target="_blank" rel="noopener noreferrer">🚀</a>
+        </div>
+
+        <div class="divider border"></div>
+
+        <div>
+            Copy problem to clipboard (in markdown) : <a id="copy-problem-to-clipboard" href="#">📋</a>
+        </div>
+
+        <div class="divider border"></div>
+
+        <div>
+            Last leetcode accepted submission : <b><span id="lastAcceptedSubmission"></span></b>
+        </div>
+
+        <div id="status" style="margin-top: 10px; font-style: italic;"></div>
+
+        <script src="js/popup.js"></script>
+    </body>
+</html>
